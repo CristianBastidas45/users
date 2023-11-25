@@ -1,0 +1,44 @@
+.user-container{
+    margin: 1em;
+    border: 1px solid #0001;
+    border-radius: 0.8em;
+    padding: 1em;
+    width: 310px;
+    /* max-width: 310px; */
+}
+.user__title{
+    font-size: 1.1em;
+    font-weight: 500;
+    margin-bottom: 1em;
+}
+.user__item{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 1em;
+}
+.user__span{
+    color: rgb(202, 198, 198);
+    margin-bottom: 0.2em;
+}
+.user__btns{
+    display: flex;
+    justify-content: end;
+    gap: 1em;
+}
+.user__btn{
+    color: white;
+    border: none;
+    height: 3em;
+    border-radius: 0.8em;
+    aspect-ratio: 1;
+
+}
+.btn__delete{
+    background-color: #D85D5D;
+}
+.btn__edit{
+    background-color: gray;
+}
+.user__btn:hover{
+    filter: brightness(1.2);
+}
