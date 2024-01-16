@@ -12,9 +12,9 @@ function App() {
   const [infoDelete, setInfoDelete] = useState()
   const [deleteState, setDeleteState] = useState(true)
 
-  // const url = 'https://users-crud.academlo.tech'
+  const url = 'https://users-crud.academlo.tech'
   // const url = 'http://localhost:8080'
-  const url = 'https://users-backend-dev-xhtx.3.us-1.fl0.io'
+  // const url = 'https://users-backend-dev-xhtx.3.us-1.fl0.io'
   
   const [users, getUsers, createUser, deleteUser,updateUser] = useCrud(url)
 
